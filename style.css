@@ -1,17 +1,41 @@
+
+:root {
+  /* --main-background-color: #e7e7e9;
+  --section-background-color: #f4f4f7f7;
+  --frame-color: #312f32;
+  --title-color: #1e1d1f;
+  --text-color: #312f32; */
+
+  /* --main-background-color: #e7e7e9;
+  --section-background-color: #f4f4f7f7;
+  --frame-color: #001c40;
+  --title-color: #00214c;
+  --text-color: #312f32; */
+
+  /* NIGHTIME */
+  --frame-color: #FFFFE5;
+  --main-background-color: #001737;
+  --title-color: #FFFFE5;
+  --text-color: #FFFFE5;
+  --section-background-color: #001737;
+}
+
+
 /*  GENERAL STYLING */
 
 html {
   border: none;
 
-  background: url('assets/ldn312f32.png') no-repeat fixed center;
+  background: url('assets/london-ffffe5.png') no-repeat fixed center;
   background-size: cover;
-  background-color: #e7e7e9;
+  /* background-color: #001737; */
+  background-color: var(--main-background-color);
 }
 
 body {
   margin: 20px auto;
   max-width: 600px;
-  color: #312f32;
+  color: var(--text-color);
   /* background-color: #e7e7e9; */
   font-family: 'Spectral', serif;
 
@@ -28,14 +52,14 @@ h1, h2 {
   font-size: 2em;
   margin: 0px;
   /* margin: 0px 0px 40px 0px; */
-  color: #1e1d1f;
+  color: var(--title-color);
   font-family: 'Vollkorn', serif;
   font-weight: 700;
   font-style: italic;
 }
 
 a {
-  color: #312f32;
+  color: var(--text-color);
 }
 
 
@@ -54,8 +78,10 @@ a {
   padding: 0px 50px;
   margin: 30vh auto;
 
-  background-color: #f4f4f7f7;
-  border: 5px #312f32 solid;
+  background-color: var(--section-background-color);
+  /* border-top-right-radius: 28px;
+  border-bottom-left-radius: 28px; */
+  border: 5px var(--frame-color) solid;
 }
 
 
@@ -64,7 +90,7 @@ a {
 
 .top_text, .top_contact_hidden {
   font-size: 1.2em;
-  color: #312f32;
+  color: var(--text-color);
   font-family: 'Spectral', serif;
 }
 
@@ -98,14 +124,14 @@ a {
 }
 
 .intro_text_link {
-  color: #1e1d1f;
+  color: var(--title-color);
   font-family: 'Spectral', serif;
 }
 
 /* TECHS SECTION */
 
 .techs {
-
+  /* padding: 0px 20px; */
 }
 
 .techs_images {
@@ -163,11 +189,9 @@ a {
   margin-bottom: 50px;
 }
 
-
 #chronicles, #autsera {
   width: 200px;
 }
-
 
 .projects_block {
   display: flex;
@@ -228,8 +252,9 @@ a {
   width: 100px;
   height: 80px;
 
-  border-top: 28px solid #312f32;
-  border-left: 28px solid #312f32;
+  border-top: 28px solid var(--frame-color);
+  border-left: 28px solid var(--frame-color);
+  /* border-radius: 28px; */
 
   margin-top:  -28px;
   margin-left: -78px;
@@ -243,8 +268,9 @@ a {
   width: 100px;
   height: 80px;
 
-  border-bottom: 28px solid #312f32;
-  border-right: 28px solid #312f32;
+  border-bottom: 28px solid var(--frame-color);
+  border-right: 28px solid var(--frame-color);
+  /* border-radius: 28px; */
 
   margin-bottom: -28px;
   margin-right: -78px;
@@ -264,7 +290,7 @@ a {
     padding: 20px 20px;
     margin: 30vh auto;
 
-    border: 5px #312f32 solid;
+    border: 5px var(--frame-color) solid;
   }
 
   .inner_corner_top_left, .inner_corner_bottom_right {
