@@ -1,23 +1,32 @@
 
 :root {
-  /* --main-background-color: #e7e7e9;
+  /* ORIGINAL
+  --main-background-color: #e7e7e9;
   --section-background-color: #f4f4f7f7;
   --frame-color: #312f32;
   --title-color: #1e1d1f;
   --text-color: #312f32; */
 
-  /* --main-background-color: #e7e7e9;
+  /* BLUE THAMES
+  --main-background-color: #e7e7e9;
   --section-background-color: #f4f4f7f7;
   --frame-color: #001c40;
   --title-color: #00214c;
   --text-color: #312f32; */
 
-  /* NIGHTIME */
+  /* NIGHTIME
   --frame-color: #FFFFE5;
   --main-background-color: #001737;
   --title-color: #FFFFE5;
   --text-color: #FFFFE5;
-  --section-background-color: #001737;
+  --section-background-color: #001737; */
+
+  /* NIGHTFLIGHT */
+  --frame-color: #001737;
+  --main-background-color: #001737;
+  --title-color: #001737;
+  --text-color: #001737;
+  --section-background-color: #FFFFE5;
 }
 
 
@@ -26,7 +35,7 @@
 html {
   border: none;
 
-  background: url('assets/london-ffffe5.png') no-repeat fixed center;
+  background: url('assets/london-ffffe5-90pc.png') no-repeat fixed center; /* SHINY: london-ffffe5 or london-ffffe5-90pc / DARK GREY: ldn312f32 */
   background-size: cover;
   /* background-color: #001737; */
   background-color: var(--main-background-color);
@@ -75,13 +84,15 @@ a {
   display: flex;
   flex-direction: column;
   width: 500px;
-  padding: 0px 50px;
+  padding: 50px 50px;
   margin: 30vh auto;
 
   background-color: var(--section-background-color);
+  border-radius: 28px;
+  box-shadow: 10px 10px 10px var(--frame-color);
   /* border-top-right-radius: 28px;
   border-bottom-left-radius: 28px; */
-  border: 5px var(--frame-color) solid;
+  border: 0px var(--frame-color) solid;
 }
 
 
@@ -245,6 +256,8 @@ a {
 /* GRAPHIC ELEMENTS */
 
 .inner_corner_top_left {
+  display: none;
+
   position: relative;
   align-self: flex-start;
   z-index: 1;
@@ -254,13 +267,15 @@ a {
 
   border-top: 28px solid var(--frame-color);
   border-left: 28px solid var(--frame-color);
-  /* border-radius: 28px; */
+  border-radius: 28px;
 
   margin-top:  -28px;
   margin-left: -78px;
 }
 
 .inner_corner_bottom_right {
+  display: none;
+
   position: relative;
   align-self: flex-end;
   /* z-index: 1; not*/
@@ -270,7 +285,7 @@ a {
 
   border-bottom: 28px solid var(--frame-color);
   border-right: 28px solid var(--frame-color);
-  /* border-radius: 28px; */
+  border-radius: 28px;
 
   margin-bottom: -28px;
   margin-right: -78px;
