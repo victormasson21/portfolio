@@ -107,7 +107,7 @@ h1, h2 {
 
 .top_contact_block {
   display: block;
-  margin-bottom: -40px;
+  margin-bottom: 0px;
 }
 
 .top_icon_img {
@@ -281,7 +281,7 @@ h1, h2 {
     justify-content: center;
     width: 80%;
     height: auto;
-    /*  height: 305px; Should inherit from image above */ */
+    /*  height: 305px; Should inherit from image above */
 
   }
 
