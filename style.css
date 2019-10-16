@@ -75,16 +75,11 @@ h1, h2 {
 
 /* SECTION STYLING */
 
-.section {
-  max-width: 500px;
-
-}
-
-
 .top, .intro, .techs, .fac, .projects, .links {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 90vw;
+  max-width: 500px;
   padding: 50px 50px;
   margin: 30vh auto;
 
@@ -126,7 +121,7 @@ h1, h2 {
 }
 
 .top_icon_img:hover {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 /* INTRO SECTION */
@@ -197,6 +192,7 @@ h1, h2 {
 
 .projects_image {
   width: 150px;
+  height:306px;
   margin-bottom: 50px;
 }
 
