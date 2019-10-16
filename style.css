@@ -34,7 +34,6 @@
 
 html {
   border: none;
-
   background: url('assets/london-ffffe5-90pc.png') no-repeat fixed center; /* SHINY: london-ffffe5 or london-ffffe5-90pc / DARK GREY: ldn312f32 */
   background-size: cover;
   background-color: var(--main-background-color);
@@ -144,17 +143,17 @@ h1, h2 {
 .techs_images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 20px;
   user-select: none;
 }
 
 .tech_logo_img {
-  margin: 5vw;
+  margin: 3vw;
   width: 20vw;
   height: 10vw;
-  max-width: 200px;
-  max-height: 100px;
+  max-width: 100px;
+  max-height: 50px;
 }
 
 
@@ -217,11 +216,6 @@ h1, h2 {
   font-weight: bolder;
   font-family: 'Spectral', serif;
 
-  /* padding: 10px;
-  border: 2px #312f32 solid;
-  color: var(--title-color);
-  box-shadow: 2px 2px 2px #312f32;
-  border-radius: 10px; */
 }
 
 .projects_button {
@@ -259,46 +253,6 @@ h1, h2 {
 
 
 
-
-/* GRAPHIC ELEMENTS */
-
-.inner_corner_top_left {
-  display: none;
-
-  position: relative;
-  align-self: flex-start;
-  z-index: 1;
-
-  width: 100px;
-  height: 80px;
-
-  border-top: 28px solid var(--frame-color);
-  border-left: 28px solid var(--frame-color);
-  border-radius: 28px;
-
-  margin-top:  -28px;
-  margin-left: -78px;
-}
-
-.inner_corner_bottom_right {
-  display: none;
-
-  position: relative;
-  align-self: flex-end;
-  /* z-index: 1; not*/
-
-  width: 100px;
-  height: 80px;
-
-  border-bottom: 28px solid var(--frame-color);
-  border-right: 28px solid var(--frame-color);
-  border-radius: 28px;
-
-  margin-bottom: -28px;
-  margin-right: -78px;
-}
-
-
 /* MEDIA QUERIES */
 
 @media only screen and (max-device-width : 667px) {
@@ -312,12 +266,9 @@ h1, h2 {
     padding: 20px 20px;
     margin: 30vh auto;
 
-    border: 5px var(--frame-color) solid;
+    border: 2px var(--frame-color) solid;
   }
 
-  .inner_corner_top_left, .inner_corner_bottom_right {
-  display: none;
-  }
 
   .projects_block, .projects_image {
     display: block;
