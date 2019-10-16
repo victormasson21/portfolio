@@ -37,7 +37,6 @@ html {
 
   background: url('assets/london-ffffe5-90pc.png') no-repeat fixed center; /* SHINY: london-ffffe5 or london-ffffe5-90pc / DARK GREY: ldn312f32 */
   background-size: cover;
-  /* background-color: #001737; */
   background-color: var(--main-background-color);
 }
 
@@ -45,7 +44,6 @@ body {
   margin: 20px auto;
   max-width: 600px;
   color: var(--text-color);
-  /* background-color: #e7e7e9; */
   font-family: 'Spectral', serif;
 
   display: flex;
@@ -60,7 +58,6 @@ body {
 h1, h2 {
   font-size: 2em;
   margin: 0px;
-  /* margin: 0px 0px 40px 0px; */
   color: var(--title-color);
   font-family: 'Vollkorn', serif;
   font-weight: 700;
@@ -153,16 +150,13 @@ h1, h2 {
 }
 
 .tech_logo_img {
-  margin: 20px;
-  width: 120px;
+  margin: 5vw;
+  width: 20vw;
+  height: 10vw;
+  max-width: 200px;
+  max-height: 100px;
 }
 
-#git {
-  width: 100px;
-  height: 50px;
-  margin: 20px 30px;
-  padding-top: 10px;
-}
 
 /* FAC SECTION */
 
