@@ -34,9 +34,17 @@
 
 html {
   border: none;
-  background: url('assets/london-ffffe5-90pc.png') no-repeat fixed center; /* SHINY: london-ffffe5 or london-ffffe5-90pc / DARK GREY: ldn312f32 */
+  /* background: url('assets/london-ffffe5-90pc.png') no-repeat fixed center; /* SHINY: london-ffffe5 or london-ffffe5-90pc / DARK GREY: ldn312f32 */
+  /* background-size: cover; */
+
+
+  background: url("assets/london-ffffe5-90pc.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-color: var(--main-background-color);
+
 }
 
 body {
