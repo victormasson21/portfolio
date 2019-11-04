@@ -10,11 +10,72 @@
 
 /*  GENERAL STYLING */
 
+/* Mobile background */
+
+@media screen and (max-width: 599px) {
+  html {
+    background: url("assets/london/london-600.png") no-repeat center center fixed;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--main-background-color);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    background: url("assets/london/london-900.png") no-repeat center center fixed;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--main-background-color);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    background: url("assets/london/london-1200.png") no-repeat center center fixed;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--main-background-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    background: url("assets/london/london-1800.png") no-repeat center center fixed;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--main-background-color);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    background: url("assets/london/london-2400.png") no-repeat center center fixed;
+    border: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: var(--main-background-color);
+  }
+}
+
 
 
 html {
   border: none;
-  background: url("assets/london/london-1800.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -270,37 +331,7 @@ h1, h2 {
 
 }
 
-/* Mobile background */
 
-@media (max-width: 599px) {
-  html {
-    background: url("assets/london/london-600.png") no-repeat center center fixed;
-  }
-}
-
-@media (min-width: 600px) {
-  html {
-    background: url("assets/london/london-900.png") no-repeat center center fixed;
-  }
-}
-
-@media (min-width: 900px) {
-  html {
-    background: url("assets/london/london-1200.png") no-repeat center center fixed;
-  }
-}
-
-  @media (min-width: 1200px) {
-    html {
-      background: url("assets/london/london-1800.png") no-repeat center center fixed;
-    }
-}
-
-  @media (min-width: 1800px) {
-    html {
-      background: url("assets/london/london-2400.png") no-repeat center center fixed;
-    }
-}
 
 
 /* Colour options */
