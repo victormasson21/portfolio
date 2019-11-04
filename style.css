@@ -11,36 +11,6 @@
 /*  GENERAL STYLING */
 
 
-@media (max-width: 599px) {
-  html {
-    background: url("assets/london/london-600.png") no-repeat center center fixed;
-  }
-}
-
-@media (min-width: 600px) {
-  html {
-    background: url("assets/london/london-900.png") no-repeat center center fixed;
-  }
-}
-
-@media (min-width: 900px) {
-  html {
-    background: url("assets/london/london-1200.png") no-repeat center center fixed;
-  }
-}
-
-  @media (min-width: 1200px) {
-    html {
-      background: url("assets/london/london-1800.png") no-repeat center center fixed;
-    }
-}
-
-  @media (min-width: 1800px) {
-    html {
-      background: url("assets/london/london-2400.png") no-repeat center center fixed;
-    }
-}
-
 
 html {
   border: none;
@@ -298,6 +268,38 @@ h1, h2 {
     display: none;
   }
 
+}
+
+/* Mobile background */
+
+@media (max-width: 599px) {
+  html {
+    background: url("assets/london/london-600.png") no-repeat center center fixed;
+  }
+}
+
+@media (min-width: 600px) {
+  html {
+    background: url("assets/london/london-900.png") no-repeat center center fixed;
+  }
+}
+
+@media (min-width: 900px) {
+  html {
+    background: url("assets/london/london-1200.png") no-repeat center center fixed;
+  }
+}
+
+  @media (min-width: 1200px) {
+    html {
+      background: url("assets/london/london-1800.png") no-repeat center center fixed;
+    }
+}
+
+  @media (min-width: 1800px) {
+    html {
+      background: url("assets/london/london-2400.png") no-repeat center center fixed;
+    }
 }
 
 
